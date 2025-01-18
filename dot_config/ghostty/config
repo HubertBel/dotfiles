@@ -1,0 +1,14 @@
+theme = nord
+
+font-size = 12
+
+font-family = "JetBrainsMono Nerd Font"
+font-family-bold = "JetBrainsMono Nerd Font"
+font-family-italic = "JetBrainsMono Nerd Font"
+font-family-bold-italic = "JetBrainsMono Nerd Font"
+
+window-decoration = false
+
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false

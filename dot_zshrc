@@ -98,6 +98,8 @@ else
   export EDITOR='nvim'
 fi
 
+export TERMINAL='ghostty'
+
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
 	yazi "$@" --cwd-file="$tmp"
