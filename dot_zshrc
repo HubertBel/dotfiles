@@ -85,13 +85,11 @@ GOPATH=$HOME/.local/share/go/bin/
 
 export PATH=$PATH:$GOPATH
 export LC_ALL=en_US.UTF-8
-export EDITOR='nvim'
-export TERMINAL='ghostty'
+export EDITOR=nvim
 
 alias cobra='cobra-cli'
 alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
-
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
