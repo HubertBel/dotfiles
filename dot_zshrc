@@ -84,21 +84,14 @@ source $ZSH/oh-my-zsh.sh
 GOPATH=$HOME/.local/share/go/bin/
 
 export PATH=$PATH:$GOPATH
-
 export LC_ALL=en_US.UTF-8
+export EDITOR='nvim'
+export TERMINAL='ghostty'
 
 alias cobra='cobra-cli'
 alias ls='ls -a --color=auto'
 alias grep='grep --color=auto'
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='nvim'
-fi
-
-export TERMINAL='ghostty'
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
