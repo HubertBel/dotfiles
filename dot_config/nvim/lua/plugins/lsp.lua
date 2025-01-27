@@ -36,7 +36,7 @@ return {
 
 		require("mason").setup({})
 		require("mason-lspconfig").setup({
-			ensure_installed = { "lua_ls", "gopls", "html", "htmx", "templ", "pyright", "marksman", "clangd", "zls" },
+			ensure_installed = { "lua_ls", "gopls", "html", "htmx", "templ", "pyright", "marksman", "clangd", "zls", "ccls" },
 			handlers = {
 				default_setup,
 
