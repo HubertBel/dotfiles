@@ -46,7 +46,7 @@ return {
                 "marksman",
                 "clangd",
                 "zls",
-                "arduino-nvim",
+                "arduino",
             },
             handlers = {
                 default_setup,
