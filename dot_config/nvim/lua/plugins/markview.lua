@@ -13,7 +13,7 @@ return {
             headings = presets.headings.glow_labels,
         })
 
-        vim.keymap.set("n", "<leader>ev", "<CMD>Markview enableAll<CR>")
-        vim.keymap.set("n", "<leader>dv", "<CMD>Markview disableAll<CR>")
+        vim.keymap.set("n", "<leader>ev", "<CMD>Markview Enable<CR>")
+        vim.keymap.set("n", "<leader>dv", "<CMD>Markview Disable<CR>")
     end,
 }
