@@ -46,7 +46,6 @@ return {
                 "marksman",
                 "clangd",
                 "zls",
-                "arduino",
             },
             handlers = {
                 default_setup,
